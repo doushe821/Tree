@@ -37,6 +37,7 @@ int AddNode(Node_t* root, Node_t** node, void* value, int(NodeDataCompar)(void* 
     return NO_ERRORS;
 }
 
+
 int DeleteNode(Node_t* node)
 {
     while(node != NULL)
