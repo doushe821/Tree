@@ -13,7 +13,7 @@ int meow(FILE* buffer, const char* format, ...);
 #define MEOW(message, ...) meow(stderr, message, __VA_ARGS__)
 #else
 #define $
-#define MEOW(message)
+#define MEOW(message, ...)
 #endif
 
 #endif

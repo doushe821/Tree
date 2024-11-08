@@ -1,0 +1,22 @@
+digraph g {
+fontname="Helvetica,Arial,sans-serif"node [fontname="Helvetica,Arial,sans-serif"]
+graph [
+rankdir = "LR"
+];
+node [
+fontisze = "16"
+shape = "ellipse"
+];
+"node1" [
+"label" = "<f0> DATA = 10|<f1> left = 0x5030000000a0|<f2> right = 0x503000000070"
+shape = "record"
+];
+"node2" [
+"label" = "<f0> DATA = 7|<f1> left = (nil)|<f2> right = (nil)"
+shape = "record"
+];
+"node2" [
+"label" = "<f0> DATA = 15|<f1> left = (nil)|<f2> right = (nil)"
+shape = "record"
+];
+}
